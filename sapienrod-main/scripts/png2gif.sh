@@ -1,0 +1,1 @@
+ffmpeg -framerate 50 -i output/$1/step_%04d.png -vf "fps=40,scale=320:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" output/$1.gif

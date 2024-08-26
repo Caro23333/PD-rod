@@ -2,6 +2,8 @@
 
 Cosserat rod with projective dynamics. This is a CUDA implementation based on _NVIDIA warp_; Visualization is done by [SAPIEN](https://github.com/haosulab/SAPIEN).
 
+To use: In Linux, run `python3 main.py`.
+
 What is included:
 - Single elastic rod, reacting to arbitrary external forces and a variety of deformation (stretching / shearing / twisting / bending)
 - Dirichlet boundary conditions on position and orientation

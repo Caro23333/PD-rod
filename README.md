@@ -4,6 +4,8 @@ Cosserat rod with projective dynamics. This is a CUDA implementation based on _N
 
 To use: In Linux, run `python3 main.py`.
 
+Demo video: `output1.mp4`(Holding two ends of the rod, try to push them together), `output2.mp4`(Soft elastic rod dropping into an invisible, tall and thin container)
+
 What is included:
 - Single elastic rod, reacting to arbitrary external forces and a variety of deformation (stretching / shearing / twisting / bending)
 - Dirichlet boundary conditions on position and orientation
